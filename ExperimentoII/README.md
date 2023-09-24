@@ -6,7 +6,7 @@ Este micorservicio se encarga de recibir una solicitud de consulta que a su vez 
 
 ### Ejecución del experimento
 
-1. Se deben crear tres instacias diferentes del servicio de busqueda (https://github.com/nicolay-dev-sp/miso-proyecto-final/ExperimentoII/Busqueda) con puertos de escucha diferentes, para el ejemplo se utilizaron los puertos: 8100, 8200, 8300
+1. Se deben crear tres instacias diferentes del servicio de busqueda [Servicio de Busqueda](https://github.com/nicolay-dev-sp/miso-proyecto-final/tree/main/ExperimentoII/Busqueda) con puertos de escucha diferentes, para el ejemplo se utilizaron los puertos: 8100, 8200, 8300
 2. Configurar las variables del archivo app.py (urlServiceOne, urlServiceTwo, urlServiceThree) para que coincidan con las url de los tres microservicios ya desplegados
 3. Cargar el archivo de ejecución "HTTP Procesar Busqueda.jmx" en jmeter
 4. Ejecutar la operación en jmeter con el botón verde
